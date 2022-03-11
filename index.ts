@@ -13,16 +13,29 @@ async function signTransactionWeb(message = testMessage) {
     )
   );
 
-  console.log(JSON.stringify(Message.from(base58.decode(message))));
+  // This is in the testMessage.json file
+  // console.log(JSON.stringify(Message.from(base58.decode(message))));
 
   // Something has to be going on here...
   let newTX = Transaction.populate(Message.from(base58.decode(message)));
+  console.log("--- Test message === Message.from(newTX.serializeMessage())");
+  console.log(
+    testMessage ===
+      base58.encode(Message.from(newTX.serializeMessage()).serialize())
+  );
+
+  console.log("--- Test message === Message.from(base58.decode(message))");
+  console.log(
+    testMessage ===
+      base58.encode(Message.from(base58.decode(message)).serialize())
+  );
 
   newTX.recentBlockhash = "2AySDQYjsej4ajtqjrkiSpeCzuQ8pbPWyvmQpFNs4aNG";
   newTX.sign(keypair);
   console.log(newTX?.feePayer?.toBase58());
 
-  console.log(JSON.stringify(Message.from(newTX.serializeMessage())));
+  // This is in the createdTXMessage.json file
+  // console.log(JSON.stringify(Message.from(newTX.serializeMessage())));
 
   let sig = newTX.signatures[0].signature;
   sig ? console.log(base58.encode(sig)) : console.log("no sig");
