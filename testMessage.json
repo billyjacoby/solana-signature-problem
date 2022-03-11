@@ -1,0 +1,37 @@
+{
+  "header": {
+    "numRequiredSignatures": 1,
+    "numReadonlySignedAccounts": 0,
+    "numReadonlyUnsignedAccounts": 8
+  },
+  "accountKeys": [
+    "AfpKwPAYSPmZtAWKxWuMRwx4EnJjHsYFwPjCEcqevcWD",
+    "EsBzqsa3myFtLmXjWod76W9aqr5DW4ApVMbvVikozXg9",
+    "5EJohg83jWUoEyurcg1ZLxYaMfhA7oUGvMtW9ENgb93z",
+    "9oyxR3SSNMFDSkHUHxZctiNJ3Li111XGSNDcX4aNhehR",
+    "5EZiwr4fE1rbxpzQUWQ6N9ppkEridNwbH3dU3xUf7wPZ",
+    "Hs7Z2ZCKteBfiHAYpz7hXzqYckAspZzdsCNZK2QjqkX3",
+    "sinjBMHhAuvywW3o87uXHswuRXb3c7TfqgAdocedtDj",
+    "DegMWzrKriWBcgXD3Zbek8dhH2KSz6JEqTsaVj5dTQwD",
+    "inL8PMVd6iiW3RCBJnr5AsrRN6nqr4BTrcNuQWQSkvY",
+    "11111111111111111111111111111111",
+    "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "SysvarRent111111111111111111111111111111111",
+    "trsryGQ6V9dfNBRnUZKmbK1RsfqTyNnxa7jhKogHdMQ",
+    "Cf5xZgTR22SM2kxPfuShqcZJfVMAoezex9LSEefwzVPp",
+    "6qfyGvoUqGB6AQ7xLc4pVwFNdgJSbAMkTtKkBXhLRiV1",
+    "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+    "6CXbGX2yDfdThSZFUMfQ2Le65nv1z87gE7k5yo37VEc8"
+  ],
+  "recentBlockhash": "2AySDQYjsej4ajtqjrkiSpeCzuQ8pbPWyvmQpFNs4aNG",
+  "instructions": [
+    { "programIdIndex": 15, "accounts": [0, 1, 0, 6, 9, 10, 11], "data": "" },
+    { "programIdIndex": 15, "accounts": [0, 2, 0, 8, 9, 10, 11], "data": "" },
+    {
+      "programIdIndex": 16,
+      "accounts": [0, 3, 4, 5, 1, 2, 6, 12, 7, 13, 14, 8, 10, 9],
+      "data": "DwkZu64FbMfQecWeR1Mvxw"
+    }
+  ],
+  "indexToProgramIds": {}
+}
